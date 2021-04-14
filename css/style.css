@@ -5,7 +5,8 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background-color: #2f2f2b;
+    /*
+    background-color: #2f2f2b;*/
 }
 
 .hidden{
@@ -47,7 +48,7 @@ header {
 }
 
 .about_text{
-    background-color: #ff7129;
+    background-color: #78BCC4;
 }
 
 #about h2{
@@ -67,7 +68,7 @@ header {
     border: #2f2f2b solid 1px;
     width: 75%;
     margin-top: -15rem;
-    background-color: #ff7129;
+    background-color:#78BCC4;
     color: #2f2f2b;
     border-radius: 12px;
     box-shadow: 0 5px 5px 0;
