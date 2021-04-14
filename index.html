@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Vincent Laureys</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
@@ -23,7 +23,8 @@
         <h2 class="hidden">About</h2>
         <div class="about_text">
             <h2 class="title">About me</h2>
-            <p>I'm a 20 year old student from Belgium studying web development. As a web developer i am an ambitious, motivated and naturally curious person who loves to work.
+            <p>I'm a 20 year old student from Belgium studying web development. As a web developer i am an ambitious,
+                motivated and naturally curious person who loves to work.
                 Feel free to take a look at my portfolio and contact me if you are interested.</p>
         </div>
         <div id="skilltable">
@@ -56,40 +57,51 @@
         <p>Here are a few projects i worked on recently.</p>
         <div class="projects">
 
-                <div class="project">
-                    <img src="assets/construction.jpg">
-                    <div class="project_text">
-                        <p>Placeholder project titel</p>
-                        <a href="#"><button>Visit project</button></a>
-                    </div>
-                </div>
             <div class="project">
                 <img src="assets/construction.jpg">
                 <div class="project_text">
                     <p>Placeholder project titel</p>
-                    <a href="#"><button>Visit project</button></a>
+                    <a href="#">
+                        <button>Visit project</button>
+                    </a>
                 </div>
             </div>
             <div class="project">
                 <img src="assets/construction.jpg">
                 <div class="project_text">
                     <p>Placeholder project titel</p>
-                    <a href="#"><button>Visit project</button></a>
+                    <a href="#">
+                        <button>Visit project</button>
+                    </a>
                 </div>
             </div>
             <div class="project">
                 <img src="assets/construction.jpg">
                 <div class="project_text">
                     <p>Placeholder project titel</p>
-                    <a href="#"><button>Visit project</button></a>
+                    <a href="#">
+                        <button>Visit project</button>
+                    </a>
                 </div>
-            </div>                <div class="project">
-            <img src="assets/construction.jpg">
-            <div class="project_text">
-                <p>Placeholder project titel</p>
-                <a href="#"><button>Visit project</button></a>
             </div>
-        </div>
+            <div class="project">
+                <img src="assets/construction.jpg">
+                <div class="project_text">
+                    <p>Placeholder project titel</p>
+                    <a href="#">
+                        <button>Visit project</button>
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/construction.jpg">
+                <div class="project_text">
+                    <p>Placeholder project titel</p>
+                    <a href="#">
+                        <button>Visit project</button>
+                    </a>
+                </div>
+            </div>
 
 
         </div>
@@ -100,15 +112,54 @@
         <div class="companies">
             <a href="#"><img src="assets/construction.jpg"></a>
 
-            <a href="#"><img src="assets/construction.jpg"></a> <a href="#"><img src="assets/construction.jpg"></a> <a href="#"><img src="assets/construction.jpg"></a> <a href="#"><img src="assets/construction.jpg"></a>
+            <a href="#"><img src="assets/construction.jpg"></a> <a href="#"><img src="assets/construction.jpg"></a> <a
+                href="#"><img src="assets/construction.jpg"></a> <a href="#"><img src="assets/construction.jpg"></a>
 
 
         </div>
     </section>
 
+    <section id="contact">
+        <h2 class="title">Interested in working together?</h2>
+        <p>I'm always open to discussing working opportunities.</p>
+        <button id="modal_button">Start a conversation</button>
 
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 class="title">Send me a message!</h2>
+                <div class="input">
+                    <div>
+                        <p>Name</p>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <p>Email</p>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div id="textarea">
+                    <p>Message</p>
+                    <textarea></textarea>
+                    <input type="submit" id="submit" value="verzenden">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 </main>
 
+<footer>
+    <div id="icons">
+        <span class="iconify" data-inline="false" data-icon="jam:linkedin-circle" style="color: #F7F8F3;"></span>
+        <span class="iconify" data-inline="false" data-icon="codicon:github" style="color: #F7F8F3;"></span>
+    </div>
+    <p>2021 © Laureys Vincent</p>
+</footer>
+<script src="js/script.js"></script>
+<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 </body>
 </html>
 
