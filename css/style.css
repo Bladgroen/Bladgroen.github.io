@@ -136,13 +136,34 @@ header {
     position: relative;
 }
 
+.project button{
+    background-color: transparent;
+    padding: 1rem;
+    width: 60%;
+    border: none;
+    outline: none;
+    border: 2px solid #2ac0f1;
+    border-radius: 100rem;
+    color: white;
+}
+
+.project button:hover{
+    background-color: #2ac0f1;
+    cursor: pointer;
+}
+
 .project_text{
     position: absolute;
-    top: 50%;
+    top: 7rem;
     left: 0;
     bottom: 0;
     width: 100%;
     opacity: 0;
+
+}
+
+.project:hover{
+    transform: scale(1.2);
 }
 
 .project:hover img{
@@ -154,7 +175,26 @@ header {
     opacity: 1;
 }
 
+#companies{
+    text-align: center;
+}
 
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.companies a{
+    padding: 2rem;
+}
+
+.companies img{
+    width: 30rem;
+    height: 30rem;
+}
 
 
 
