@@ -51,7 +51,7 @@ header {
     background-color: #09A0D1;
 }
 
-#about h2{
+.title{
     font-size: 4rem;
     padding: 5rem;
 }
@@ -76,7 +76,7 @@ header {
 
 #skilltable h3{
  font-size: 2.5rem;
-    color: #09A0D1;
+    color: #2ac0f1;
 }
 
 #skilltable p{
@@ -101,5 +101,63 @@ header {
  font-size: 2rem;
     margin-bottom: 1rem;
 }
+
+#projects{
+    text-align: center;
+    padding-top: 7rem;
+}
+
+#projects h2{
+    padding-bottom: 2rem;
+}
+
+#projects p{
+    font-size: 2.5rem;
+    padding-bottom: 7rem;
+}
+
+.projects img{
+    width: 30rem;
+    height: 30rem;
+    transition: .3s all;
+    border-radius: 1rem;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.project{
+    padding: 2rem;
+    position: relative;
+}
+
+.project_text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+.project:hover img{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.project:hover .project_text{
+    opacity: 1;
+}
+
+
+
+
+
+
 
 
