@@ -5,7 +5,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-
+    font-family: "europa", sans-serif;
     background-color: #F7F8F3;
 }
 
@@ -48,7 +48,7 @@ header {
 }
 
 .about_text{
-    background-color: #2ac0f1;
+    background-color: #09A0D1;
 }
 
 #about h2{
@@ -57,7 +57,7 @@ header {
 }
 
 #about p{
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 50%;
     margin: 0 auto;
     padding-bottom: 20rem;
@@ -76,6 +76,7 @@ header {
 
 #skilltable h3{
  font-size: 2.5rem;
+    color: #09A0D1;
 }
 
 #skilltable p{
@@ -93,6 +94,7 @@ header {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 7rem;
 }
 
 #skilltable ul li{
