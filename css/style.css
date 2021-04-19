@@ -22,10 +22,7 @@ header {
     background-size: cover;
     background-color: #2f2f2b;
     text-align: center;
-
 }
-
-
 
 .banner_text{
     text-align: center;
@@ -53,8 +50,8 @@ header {
 }
 
 .banner_text img {
-    width: 25vh;
-    height: 25vh;
+    width: 25rem;
+    height: 25rem;
     padding: 1rem;
 
 }
