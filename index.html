@@ -9,11 +9,19 @@
 <section>
     <header>
         <h2 class="hidden">Banner</h2>
+        <div id="typed-text">
+            <span id="typed"></span>
+        </div>
+
         <div class="banner_text">
-            <h1>Hi, I'm Vincent</h1>
-            <h2>I am a web developer</h2>
+            <div id="typed-strings">
+                <h1>Hi, I'm Vincent</h1>
+                <h2>I am a web developer</h2>
+            </div>
+
             <img id="test" src="assets/pf.png" alt="profile picture">
         </div>
+
 
     </header>
 </section>
@@ -153,13 +161,23 @@
 
 <footer>
     <div id="icons">
-        <span class="iconify" data-inline="false" data-icon="jam:linkedin-circle" style="color: #F7F8F3;"></span>
-        <span class="iconify" data-inline="false" data-icon="codicon:github" style="color: #F7F8F3;"></span>
+        <a href="https://www.linkedin.com/in/vincent-laureys-2a0166203/" target="_blank"><span id="linkedin" class="iconify" data-inline="false" data-icon="jam:linkedin-circle" style="color: #F7F8F3;"></span></a>
     </div>
     <p>2021 © Laureys Vincent</p>
 </footer>
 <script src="js/script.js"></script>
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            loop: true,
+            backSpeed: 60,
+            typeSpeed: 70
+        });
+
+</script>
 </body>
 </html>
 

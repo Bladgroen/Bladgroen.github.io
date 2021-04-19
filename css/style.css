@@ -25,15 +25,33 @@ header {
     text-align: center;
 }
 
-.banner_text {
+.banner_text{
     text-align: center;
     position: absolute;
-    top: 65%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 3rem;
     font-weight: 800;
+}
+
+#typed-text{
+    padding-top: 10rem;
+}
+
+#typed {
+    text-align: center;
+    padding-top: 5rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.typed-cursor{
+    color: white;
+    font-size: 3.5rem;
 }
 
 .banner_text img {
@@ -233,10 +251,6 @@ header {
     cursor: pointer;
 }
 
-
-
-
-
 .modal {
     display: none;
     position: fixed;
@@ -295,10 +309,15 @@ header {
     text-align: center;
 }
 
+.input{
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+}
 
 .input input{
     padding: 1rem;
-    width: 30%;
+
 }
 
 .input div{
@@ -310,12 +329,15 @@ header {
 #textarea{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
 }
 
 #textarea textarea{
     width: 50%;
     margin: 0 auto;
     margin-bottom: 7rem;
+    height: 10rem;
 }
 
 #textarea input{
@@ -330,6 +352,7 @@ header {
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
     font-family: "europa", sans-serif;
+    font-size: 2.5rem;
 }
 
 #textarea input:hover{
@@ -339,5 +362,20 @@ header {
 }
 
 footer{
+    margin-top: 7rem;
+    background-color: #2ac0f1;
+    text-align: center;
+    padding-top: 2rem;
+}
 
+footer p{
+    font-size: 2.5rem;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+footer svg#linkedin{
+    font-size: 4rem;
 }
