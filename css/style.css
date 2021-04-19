@@ -377,15 +377,26 @@ footer svg#linkedin{
     font-size: 4rem;
 }
 
+@media only screen and (max-width: 900px) {
+    .projects{
+        width: 100%;
+    }
+
+    .companies{
+        width: 100%;
+    }
+
+    #contact button{
+             width: 70%;
+         }
+}
 
 @media only screen and (max-width: 750px) {
     #about p{
         width: 90%;
     }
 
-    #contact button{
-        width: 70%;
-    }
+
 }
 
 @media only screen and (max-width: 400px) {
