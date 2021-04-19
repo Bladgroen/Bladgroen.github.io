@@ -20,17 +20,15 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
     background-color: #2f2f2b;
     text-align: center;
+
 }
+
+
 
 .banner_text{
     text-align: center;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: white;
     font-size: 3rem;
     font-weight: 800;
@@ -55,8 +53,10 @@ header {
 }
 
 .banner_text img {
-    width: 25rem;
-    height: 25rem;
+    width: 25vh;
+    height: 25vh;
+    padding: 1rem;
+
 }
 
 #about{
@@ -378,4 +378,43 @@ footer p{
 
 footer svg#linkedin{
     font-size: 4rem;
+}
+
+
+@media only screen and (max-width: 750px) {
+    #about p{
+        width: 90%;
+    }
+
+    #contact button{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    p{
+        font-size: 2rem !important;
+    }
+
+    #skilltable ul li{
+        font-size: 2rem !important;
+    }
+
+    #skilltable img{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .banner_text img{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .title{
+        font-size: 3rem !important;
+    }
+
+    #typed{
+        font-size: 3rem !important;
+    }
 }
