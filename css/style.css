@@ -417,4 +417,8 @@ footer svg#linkedin{
     #typed{
         font-size: 3rem !important;
     }
+
+    header{
+        height: 25rem;
+    }
 }
